@@ -1,0 +1,4 @@
+PKG postgresql12-server
+SYSRC postgresql_enable=YES
+CMD /usr/local/etc/rc.d/postgresql initdb
+SERVICE postgresql start
