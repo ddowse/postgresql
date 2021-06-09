@@ -1,3 +1,6 @@
+
+Use this Template [bastille-postgres](https://github.com/yaazkal/bastille-postgres) instead
+
 # postgresql
 PostgreSQL [BastilleBSD](https://bastillebsd.org) Template
 
@@ -9,4 +12,3 @@ bastille config TARGET set sysvshm=new
 bastille bootstrap https://github.com/ddowse/postgresql 
 bastille template TARGET ddowse/postgresql
 ```
-
